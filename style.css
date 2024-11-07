@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+/*fontes importandas configuradas*/
+.meow-script-regular {
+  font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*blocos formatados*/
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #f4f4f4;
+}
+
+header {
+	background: #f8e1f587;
+	color: #664d48;
+	padding: 100px 120px 20px;
+	margin-top: 0px;
+	margin-left: 500px;
+	line-height: 0.5;
+}
+
+main {
+	background: #ffffff;
+	padding: 100px 80px 20px;
+	color: #664d48;
+	font-size: 2.0em;
+	margin-left: 0px;
+}
+
+section {
+	margin: 20px 0;
+	background: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0,0.1);
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background: #664d48;
+	color: white;
+	bottom: 0;
+	width: 100%;
+	font-size: 1.0em;
+}
+
+/*titulos e suas formatações*/
+header h1{
+	font-size: 15.0em;
+	font-family: Meow Script, cursive;
+	transform: rotate(-15deg);
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	top: 335px;
+	left: -100px;
+	color: #fff;
+
+}
+header h2{
+	font-size: 12.0em;
+	line-height: 0.5em;
+}
+header h3 {
+	font-size: 6.0em;
+	line-height: 0.5em;
+}
+header h4 {
+	font-size: 4.0em;
+	font-family: Meow Script, cursive;
+	transform: rotate(-15deg);
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	top: -140px;
+	left: 350px;
+	color: #fff;
+}
+
+main h1{
+	font-size: 1.5em;
+	line-height: 2.0em;
+	text-align: center;
+	color; #664d48;
+}
+
+/*Botôes*/
+.btn1 {
+    background-color: #f8e1f587; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    padding: 20px 10px; /* Aumenta o espaçamento vertical */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: block; /* Faz o botão se comportar como um botão de bloco */
+    font-size: 30px; /* Tamanho da fonte */
+    margin-top: -90px; /* Margem acima*/
+	margin-bottom: 90px; /*Margem abaixo*/
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    border: solid; /* Borda sólida */
+    border-radius: 5px; /* Bordas arredondadas */
+    border-width: 0.5px; /* Espessura da borda */
+}
+
+.btn1:hover {
+    background-color: #664d48; /* Cor ao passar o mouse */
+	color: white;
+}
+
+/*Containers e Boxes*/
+.container {
+    display: flex; /* Ativa o modo flex */
+}
+
+.box1 {
+    margin: 10px; /* Espaçamento entre as divs */
+    padding: 20px; /* Espaçamento interno */
+    flex: 1; /* As divs se expandem igualmente */
+}
+
+.section1 {
+    margin: 10px; /* Espaçamento entre as divs */
+    padding: 20px; /* Espaçamento interno */
+    flex: 1; /* As divs se expandem igualmente */
+	margin-left: 300px;
+}
+
+/*Links*/
+ a {
+	 color: #664d48; /* Cor do link normal */
+	 text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilo ao passar o mouse (hover) */
+a:hover {
+	color: #ef6fcf; /* Cor ao passar o mouse */
+}
+
+/*Imagens*/
+img {
+	width: 800px;
+	height: auto
+}
