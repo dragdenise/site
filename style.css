@@ -10,9 +10,9 @@
 
 /*fontes importandas configuradas*/
 .meow-script-regular {
-  font-family: "Meow Script", cursive;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Meow Script", cursive;
+	font-weight: 400;
+	font-style: normal;
 }
 
 /*blocos formatados*/
@@ -64,10 +64,11 @@ footer {
 header h1{
 	font-size: 15.0em;
 	font-family: Meow Script, cursive;
+	
 	transform: rotate(-15deg);
 	display: inline-block;
 	margin: 0;
-	position: relative;
+	position: absolute; /*fixa a posição do h1*/
 	top: 335px;
 	left: -100px;
 	color: #fff;
@@ -102,35 +103,35 @@ main h1{
 
 /*Botôes*/
 .btn1 {
-    background-color: #f8e1f587; /* Cor de fundo */
-    color: black; /* Cor do texto */
-    padding: 20px 10px; /* Aumenta o espaçamento vertical */
-    text-align: center; /* Alinhamento do texto */
-    text-decoration: none; /* Remove o sublinhado do link */
-    display: block; /* Faz o botão se comportar como um botão de bloco */
-    font-size: 30px; /* Tamanho da fonte */
-    margin-top: -90px; /* Margem acima*/
+	background-color: #f8e1f587; /* Cor de fundo */
+	color: black; /* Cor do texto */
+	padding: 20px 10px; /* Aumenta o espaçamento vertical */
+	text-align: center; /* Alinhamento do texto */
+	text-decoration: none; /* Remove o sublinhado do link */
+	display: block; /* Faz o botão se comportar como um botão de bloco */
+	font-size: 30px; /* Tamanho da fonte */
+	margin-top: -90px; /* Margem acima*/
 	margin-bottom: 90px; /*Margem abaixo*/
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    border: solid; /* Borda sólida */
-    border-radius: 5px; /* Bordas arredondadas */
-    border-width: 0.5px; /* Espessura da borda */
+	cursor: pointer; /* Muda o cursor ao passar o mouse */
+	border: solid; /* Borda sólida */
+	border-radius: 5px; /* Bordas arredondadas */
+	border-width: 0.5px; /* Espessura da borda */
 }
 
 .btn1:hover {
-    background-color: #664d48; /* Cor ao passar o mouse */
+	background-color: #664d48; /* Cor ao passar o mouse */
 	color: white;
 }
 
 /*Containers e Boxes*/
 .container {
-    display: flex; /* Ativa o modo flex */
+	display: flex; /* Ativa o modo flex */
 }
 
 .box1 {
-    margin: 10px; /* Espaçamento entre as divs */
-    padding: 20px; /* Espaçamento interno */
-    flex: 1; /* As divs se expandem igualmente */
+	margin: 10px; /* Espaçamento entre as divs */
+	padding: 20px; /* Espaçamento interno */
+	flex: 1; /* As divs se expandem igualmente */
 }
 
 .section1 {
