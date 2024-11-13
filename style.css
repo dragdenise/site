@@ -20,7 +20,6 @@ header {
 	color: #664d48;
 	padding: 100px 120px 20px;
 	line-height: 1.2;
-	text-align: center; /* Centraliza o conteúdo dentro do header */
 	position: relative;
 }
 
@@ -41,36 +40,41 @@ footer {
 
 /* Títulos ajustados */
 header h1 {
-	font-size: 10em;
+	font-size: 15.0em;
 	font-family: Meow Script, cursive;
 	transform: rotate(-15deg);
 	display: inline-block;
 	margin: 0;
 	line-height: 1.0;
 	color: #fff;
+	position: relative;
+	z-index: 1; /* Garante que o h1 fique acima de outros elementos */
 }
 
 header h2 {
-	font-size: 6em;
-	line-height: 1.0;
+	font-size: 12.0em;
+	line-height: 0.5em;
+	margin-top: 20px;
 	color: #664d48;
-	margin-top: 20px; /* Ajuste o espaço entre os títulos */
 }
 
 header h3 {
-	font-size: 4.0em;
-	line-height: 1.0;
-	color: #664d48;
+	font-size: 6.0em;
+	line-height: 0.5em;
 	margin-top: 20px;
+	color: #664d48;
 }
 
 header h4 {
-	font-size: 3.0em;
+	font-size: 4.0em;
 	font-family: Meow Script, cursive;
 	transform: rotate(-15deg);
 	display: inline-block;
 	margin: 0;
 	line-height: 1.0;
+	position: relative;
+	top: -140px;
+	left: 350px;
 	color: #fff;
 }
 
