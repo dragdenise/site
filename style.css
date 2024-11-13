@@ -87,8 +87,10 @@ header h4 {
 /*Links*/
 a {
   	color: #EF6FCF;
+	text-decoration: none; /*Remove o Sublinhado*/
 }
 
+/*Estilo ao passar ao mouse (hover)*/
 a:hover {
   	color: #EF6FCF;
 	text-decoration: none; /*Remove o Sublinhado*/
