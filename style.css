@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+/*Reset inicial*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #F4F4F4;
+}
