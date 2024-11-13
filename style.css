@@ -91,6 +91,7 @@ a {
 
 a:hover {
   	color: #EF6FCF;
+	text-decoration: none; /*Remove o Sublinhado*/
 }
 
 img {
