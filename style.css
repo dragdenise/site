@@ -4,7 +4,7 @@
 /*Reset inicial*/
 * {
 	margin: 0;
-	passing: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -134,10 +134,10 @@ main h1{
 }
 
 .section1 {
-    margin: 10px; /* Espaçamento entre as divs */
-    padding: 20px; /* Espaçamento interno */
-    flex: 1; /* As divs se expandem igualmente */
-	margin-left: 300px;
+	margin: 10px; /* Espaçamento entre as divs */
+	padding: 20px; /* Espaçamento interno */
+	flex: 1; /* As divs se expandem igualmente */
+	/*margin-left: 300px;*/
 }
 
 /*Links*/
