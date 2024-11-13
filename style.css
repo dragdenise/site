@@ -10,3 +10,8 @@ body {
   font-family: Arial, sans-serif;
   background: #F4F4F4;
 }
+
+header {
+  background: #F8E1F587;
+  color: #664d48;
+}
