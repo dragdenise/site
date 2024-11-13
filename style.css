@@ -2,53 +2,57 @@
 
 /*Reset inicial*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
-  background: #F4F4F4;
+	font-family: Arial, sans-serif;
+	background: #F4F4F4;
 }
 
 header {
-  background: #F8E1F587;
-  padding: 100px 120px 20px;
-  color: #664d48;
-  line-height: 1.2;
-  position: relative;
+	background: #F8E1F587;
+	padding: 100px 120px 20px;
+	color: #664d48;
+	line-height: 1.2;
+	position: relative;
 }
 
 main {
-  background: #FFFFFF;
-  padding: 100px 80px 20px;
-  color: #664D48;
-  font-size: 2.0em;
+	background: #FFFFFF;
+	padding: 100px 80px 20px;
+	color: #664D48;
+	font-size: 2.0em;
 }
 
 footer {
-  background: #664D48;
-  padding: 10px;
-  text-align: center;
-  color: white;
-  font-size: 1.0em;
+	background: #664D48;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-size: 1.0em;
 }
 
 /*Títulos Ajustados*/
 header h1 {
-  font-family: Meow Script, cursive;
-  font-size 15.0em;
-  transform> rotate(-15deg);
-  margin: 0;
-  line-height: 1.0;
-  color: #FFF;
-  position: relative;
-  z-index: 1; /*Garante que o h1 fique acima dos outros elementos */
+  	font-family: Meow Script, cursive;
+  	font-size: 15.0em;
+  	transform: rotate(-15deg);
+  	margin: 0;
+  	line-height: 1.0;
+  	color: #FFF;
+  	position: relative;
+  	z-index: 1; /*Garante que o h1 fique acima dos outros elementos */
+}
+
+header h4 {
+	
 }
 
 /*Botões*/
 .btn1 {
-  background-color: #f8e1f587;
+	background-color: #f8e1f587;
 	color: black;
 	padding: 20px 10px;
 	text-align: center;
@@ -62,20 +66,20 @@ header h1 {
 }
 
 .btn1:hover {
-  background-color: #664D48;
-  color: white;
+  	background-color: #664D48;
+  	color: white;
 }
 
 /*Links*/
 a {
-  color: #EF6FCF;
+  	color: #EF6FCF;
 }
 
 a:hover {
-  color: #EF6FCF;
+  	color: #EF6FCF;
 }
 
 img {
-  widht: 800px;
-  height: auto;
+  	widht: 800px;
+  	height: auto;
 }
