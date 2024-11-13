@@ -14,9 +14,13 @@
 	font-style: normal;
 }
 
+/*Blocos de Formatação*/
 body {
-	font-family: Arial, sans-serif;
 	background: #F4F4F4;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	overflow: hidden; /*Elima a barra de rolagem horizontal*/
 }
 
 header {
