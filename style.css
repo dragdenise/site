@@ -26,9 +26,11 @@ body {
 header {
 	background: #F8E1F587;
 	padding: 100px 120px 20px;
+	margin: auto;
 	color: #664d48;
 	line-height: 1.2;
 	position: relative;
+	max-width: 1200px;
 }
 
 main {
