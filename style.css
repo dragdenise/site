@@ -22,7 +22,7 @@ body {
 	padding: 0;
 	background: #f4f4f4;
 	/*flex-direction: column;*/
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 header {
