@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
 
+
+/*Reset inicial*/
+* {
+	margin: 0;
+	passing: 0;
+	box-sizing: border-box;
+}
+
 /*fontes importandas configuradas*/
 .meow-script-regular {
   font-family: "Meow Script", cursive;
