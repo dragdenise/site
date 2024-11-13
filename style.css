@@ -14,4 +14,7 @@ body {
 header {
   background: #F8E1F587;
   color: #664d48;
+  padding: 100px 120px 20px;
+  line-height: 1.2;
+  position: relative;
 }
