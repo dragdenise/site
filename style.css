@@ -34,3 +34,14 @@ footer {
   font-size: 1.0em;
 }
 
+/*Títulos Ajustados*/
+header h1 {
+  font-family: Meow Script, cursive;
+  font-size 15.0em;
+  transform> rotate(-15deg);
+  margin: 0;
+  line-height: 1.0;
+  color: #FFF;
+  position: relative;
+  z-index: 1; /*Garante que o h1 fique acima dos outros elementos */
+}
