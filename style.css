@@ -19,8 +19,9 @@ header {
 	background: #f8e1f587;
 	color: #664d48;
 	padding: 100px 120px 20px;
-	line-height: 1.2; /* Ajuste o line-height */
-	text-align: center;
+	line-height: 1.2;
+	text-align: center; /* Centraliza o conteúdo dentro do header */
+	position: relative;
 }
 
 main {
@@ -45,7 +46,7 @@ header h1 {
 	transform: rotate(-15deg);
 	display: inline-block;
 	margin: 0;
-	line-height: 1.0; /* Ajuste a altura das linhas */
+	line-height: 1.0;
 	color: #fff;
 }
 
@@ -53,14 +54,14 @@ header h2 {
 	font-size: 6em;
 	line-height: 1.0;
 	color: #664d48;
-	margin-top: -10px; /* Espaçamento ajustado */
+	margin-top: 20px; /* Ajuste o espaço entre os títulos */
 }
 
 header h3 {
 	font-size: 4.0em;
 	line-height: 1.0;
 	color: #664d48;
-	margin-top: -10px;
+	margin-top: 20px;
 }
 
 header h4 {
