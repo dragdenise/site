@@ -45,3 +45,37 @@ header h1 {
   position: relative;
   z-index: 1; /*Garante que o h1 fique acima dos outros elementos */
 }
+
+/*Botões*/
+.btn1 {
+  background-color: #f8e1f587;
+	color: black;
+	padding: 20px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 30px;
+	cursor: pointer;
+	border: solid;
+	border-radius: 5px;
+	border-width: 0.5px;
+}
+
+.btn1:hover {
+  background-color: #664D48;
+  color: white;
+}
+
+/*Links*/
+a {
+  color: #EF6FCF;
+}
+
+a:hover {
+  color: #EF6FCF;
+}
+
+img {
+  widht: 800px;
+  height: auto;
+}
